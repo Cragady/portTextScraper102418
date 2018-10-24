@@ -1,0 +1,82 @@
+[
+    {
+        "link": "https://cragady.github.io/Word-Guess-Game/",
+        "title": "Hangman",
+        "piPath": "assets/images/hangman-game.PNG"
+    },
+    {
+        "link": "https://cragady.github.io/unit-4-game/",
+        "title": "RPGGame",
+        "piPath": "assets/images/RPG-game.PNG"
+    },
+    {
+        "link": "https://cragady.github.io/TriviaGame/",
+        "title": "TriviaGame",
+        "piPath": "assets/images/trivia-game.PNG"
+    },
+    {
+        "link": "https://cragady.github.io/RPS-Multiplayer/",
+        "title": "RockPaperScissors",
+        "piPath": "assets/images/RPS-game.PNG"
+    },
+    {
+        "link": "https://cragady.github.io/giphy-games/",
+        "title": "GiphyApi",
+        "piPath": "assets/images/giphy-gifs.PNG"
+    },
+    {
+        "link": "https://cragady.github.io/08_project-1/",
+        "title": "ChefinyourPantry(Group)",
+        "piPath": "assets/images/chef-in-your-pantry.PNG"
+    },
+    {
+        "link": "https://github.com/Cragady/liri-node-app",
+        "title": "liri.js",
+        "piPath": "assets/images/liriJS.PNG"
+    },
+    {
+        "link": "https://github.com/Cragady/Word-Guess-Cli",
+        "title": "Word-Guess<br>(CommandLine)",
+        "piPath": "assets/images/word-guess-pic.PNG"
+    },
+    {
+        "link": "https://immense-reef-53914.herokuapp.com/",
+        "title": "FriendFinder",
+        "piPath": "assets/images/friend-finder2.PNG"
+    },
+    {
+        "link": "https://infinite-escarpment-10093.herokuapp.com/",
+        "title": "Burger",
+        "piPath": "assets/images/burgers.png"
+    },
+    {
+        "link": "https://arcane-sea-52510.herokuapp.com/",
+        "title": "BurgerSequel",
+        "piPath": "assets/images/Burgers2.PNG"
+    },
+    {
+        "link": "https://calm-ocean-96864.herokuapp.com/",
+        "title": "Book-MarkY!",
+        "piPath": "assets/images/Book-MarkY!.PNG"
+    },
+    {
+        "link": "https://nameless-sands-15542.herokuapp.com/",
+        "title": "NewsScraper",
+        "piPath": "assets/images/web-scraper.PNG"
+    },
+    {
+        "link": "https://cragady.github.io/Clicky-Game/",
+        "title": "ClickyGame",
+        "piPath": "assets/images/clicky.PNG"
+    },
+    {
+        "link": "https://pure-lake-85163.herokuapp.com",
+        "title": "NYTScrubber",
+        "piPath": "assets/images/nyt-scrubber.PNG"
+    },
+    {
+        "link": "https://fathomless-lake-80884.herokuapp.com/",
+        "title": "IntroNerd",
+        "piPath": "assets/images/intronerd.PNG"
+    }
+]
