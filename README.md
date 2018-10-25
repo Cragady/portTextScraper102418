@@ -19,7 +19,7 @@ if(piPath === lastDat){
     }
 ```
 
-`piPath` is the picture pathing; the pathing may need to be changed depenging on how I decide to structure the new portfolio I plan on building. The above code snippet tells the code to only push to the array, `arrFileWrite`, when the picture pathing has changed. `piPath` will only be defined when it comes across a string that begins with `src=`, therefore no object will be pushed if `piPath` is undefined and if it equals the last iteration's `piPath` defined as `lastDat`.
+`piPath` is the picture pathing; the pathing may need to be changed depenging on how I decide to structure the new portfolio I plan on building. The above code snippet tells the code to only push to the array, `arrFileWrite`, when the picture pathing has changed. `piPath` will only be defined when it comes across a string that begins with `src=`; no object will be pushed if `piPath` is undefined or if it equals the last iteration's `piPath`, which is defined as `lastDat`.
 
 ---
 ---
