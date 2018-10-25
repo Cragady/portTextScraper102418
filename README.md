@@ -2,7 +2,7 @@
 
 The purpose of this little file was to extract the data from an older html setup so I could easily access the info in a json file instead of having to copy and paste each link and description. 
 
-In the end, this would've been faster if I had copy/pasted everything into a new file since I had a few more hiccups than I had though I would run into. I had to restructure how each object was built with the for loop iterating over chunks of strings. I was using a constructor to build the objects, but for each iteration, the script creates a new object with the constructor. I limited the amount of objects pushed to the final array to be written to a `json` file by using the following:
+In the end, this would've been faster if I had copy/pasted everything into a new file since I had a few more hiccups than I thought I would run into. I had to restructure how each object was built with the for loop iterating over chunks of strings. I was using a constructor to build the objects, but for each iteration, the script creates a new object with the constructor. I limited the amount of objects pushed to the final array to be written to a `json` file by using the following:
 
 ```javascript
 if(piPath === lastDat){
