@@ -13,7 +13,6 @@ if(piPath === lastDat){
     if(swath === true){
         let entry = new PortDat(link, title, piPath);
         arrFileWrite.push(entry);
-        // console.log(entry);
     }
     if(piPath !== undefined){
         lastDat = piPath;
@@ -44,7 +43,6 @@ let link, title, piPath, lastDat, swath;
 for(let i = 0; i < reader.length; i++){
     if(reader[i].includes('href=')){
         link = reader[i].slice(5).replace(/"/g, '');
-        // console.log(reader[i].slice(5));
     };
     if(reader[i].includes('<h3>')){
         let s = i;
@@ -53,13 +51,9 @@ for(let i = 0; i < reader.length; i++){
             s++;
             wordPass += reader[s]
         };
-        // console.log('"' + wordPass.slice(4, wordPass.length - 6) + '"');
         title = wordPass.slice(4, wordPass.length -6);
     };
     if(reader[i].includes('src=')){
-        // console.log(reader[i].slice(4), `
-        // new line
-        // `);
         piPath = reader[i].slice(4).replace(/"/g, '');
     };
     if(piPath === lastDat){
@@ -70,7 +64,6 @@ for(let i = 0; i < reader.length; i++){
     if(swath === true){
         let entry = new PortDat(link, title, piPath);
         arrFileWrite.push(entry);
-        // console.log(entry);
     }
     if(piPath !== undefined){
         lastDat = piPath;
