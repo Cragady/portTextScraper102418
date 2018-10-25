@@ -75,3 +75,7 @@ fs.writeFile('portData.json', JSON.stringify(arrFileWrite, null, 4), function(er
     console.log('savederundo!');
 });
 ```
+
+# Why I did this?
+
+Three parts of wanting to avoid tedious repetitive action, twenty parts of finding a fun way to solve a small problem. It took a bit longer, I think, than straight copy/pasting, but it was a lot more fun.
