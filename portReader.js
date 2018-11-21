@@ -64,7 +64,7 @@ const toRead = `<div class="work col-12 col-sm-6 col-lg-4 text-center">
 <div class="work col-12 col-sm-6 col-lg-4 text-center">
     <a href="https://github.com/Cragady/bamazon-cli" target="_blank" class="card">
         <h3>Bamazon Cli</h3>
-        <img src="assets/images/word-guess-pic.PNG" class="portimage p-image-two" alt="word-guess-game terminal application">
+        <img src="assets/images/bamazon.PNG" class="portimage p-image-two" alt="word-guess-game terminal application">
     </a>
 </div>
 
@@ -148,13 +148,14 @@ for(let i = 0; i < reader.length; i++){
     };
     if(reader[i].includes('src=')){
         piPath = reader[i].slice(4).replace(/"/g, '');
+        piPath = piPath.slice(6);
     };
     if(piPath === lastDat){
         swath = false;
     } else {
         swath = true;
     }
-    if(swath === true){
+    if(swath === true && link !== '#'){
         let entry = new PortDat(link, title, piPath);
         arrFileWrite.push(entry);
     }
